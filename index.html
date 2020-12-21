@@ -18,7 +18,7 @@
                 <p>Titled</p>
             </div>
             <div class="logo">
-                <img src="https://icon-icons.com/icons2/955/PNG/32/house_chair_icon-icons.com_74379.png">
+                <img src="images/chair.png">
             </div>
             <div class="header-content">
                 <p>Char</p>
@@ -26,7 +26,7 @@
         </div>
         <nav id="link">
             <ul class="menu" id="myTopnav">
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()">
                 <i class="fa fa-bars"></i>
                 </a>
                 <a href ="" class="active">Home</a>
@@ -39,7 +39,7 @@
             </ul>
         </nav>
         <div class="content-tab">
-            <p class="arrow">Hire us</p>
+            <p class="arrow">Here us</p>
         </div>
     </div>
 </header>
@@ -72,7 +72,7 @@
         <h3 class="block-cocial">
             <span class="red">Поделиться</span>
             <span>
-            <img src="https://icon-icons.com/icons2/2108/PNG/32/telegram_icon_130816.png">
+            <img src="images/telegram.png">
             </span>
         </h3>
     </div>
@@ -270,10 +270,11 @@
 	
 <script src="wow-animation/wow.min.js"></script>
 <script>
-    new WOW().init();
-</script>		
-<script>
-function myFunction() {
+
+ new WOW().init();
+
+
+function openMenu() {
     var x = document.getElementById("myTopnav");
     if (x.className === "menu") {
         x.className += " responsive";
